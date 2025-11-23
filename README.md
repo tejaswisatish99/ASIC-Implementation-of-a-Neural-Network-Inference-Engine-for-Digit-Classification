@@ -17,8 +17,29 @@ Implemented the nonlinear sigmoid function using a precomputed lookup table (ROM
 
 A dedicated controller for data flow, layer sequencing, and synchronization between MAC, memory, and output modules, ensuring deterministic timing and minimal control overhead.
 
+##### --LEC Report
+<img width="717" height="333" alt="image" src="https://github.com/user-attachments/assets/e2aa09d6-5507-4d7c-a01a-e9455a3d89aa" />
+
 ##### --Picture of Schematic from Genus (post-synthesis)
-<img width="932" height="914" alt="image" src="https://github.com/user-attachments/assets/51ea1f25-0f17-4f51-9f0e-116d48b590c2" />
+<img width="466" height="457" alt="image" src="https://github.com/user-attachments/assets/51ea1f25-0f17-4f51-9f0e-116d48b590c2" />
 
 
+##### --QOR and Power Reports from Synthesis
 
+<img width="313.5" height="479.5" alt="image" src="https://github.com/user-attachments/assets/e5847259-a1ec-4cb2-a5ef-85b7c615790a" />
+<img width="521" height="150" alt="image" src="https://github.com/user-attachments/assets/739a13b7-b5d4-4e04-9ec7-4cb14d982585" />
+
+
+##### --Placement
+<img width="619" height="388.5" alt="image" src="https://github.com/user-attachments/assets/d8644dec-9f52-4728-ba4a-cd6e4c07d49f" />
+
+
+##### --Routing
+<img width="616" height="445" alt="image" src="https://github.com/user-attachments/assets/05165f2b-34c8-4300-9d6a-9fea7724d8f0" />
+
+
+##### --Setup & Hold reports post route
+<img width="420.5" height="235" alt="image" src="https://github.com/user-attachments/assets/e2e71c41-fd51-4212-bbf9-eaba83b308cf" />
+
+##### --GDS Streamout
+<img width="272" height="408" alt="image" src="https://github.com/user-attachments/assets/b8449dde-7285-4b71-852f-4c28cce258c2" />
