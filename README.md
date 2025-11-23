@@ -11,3 +11,14 @@ Total memory needed for weights and biases (in bits).
 ##### b2 – 10nodes with 8bit = 80 bits
 ##### Size of multiplier needed : 8*8 resulting into 16bit output
 
+A fixed-point MAC (Multiply–Accumulate) unit with widened accumulators to balance precision, minimizing overflow and resource utilization while maintaining inference accuracy.
+
+Implemented the nonlinear sigmoid function using a precomputed lookup table (ROM-based), eliminating the need for expensive exponential computations and significantly speeding up activation processing.
+
+A dedicated controller for data flow, layer sequencing, and synchronization between MAC, memory, and output modules, ensuring deterministic timing and minimal control overhead.
+
+##### --Picture of Schematic from Genus (post-synthesis)
+<img width="932" height="914" alt="image" src="https://github.com/user-attachments/assets/51ea1f25-0f17-4f51-9f0e-116d48b590c2" />
+
+
+
